@@ -25,7 +25,7 @@ function viewCart() {
       for(let i = 1;i<cart.length-1;i++){
         str = str + `, ${cart[i].itemName} at $${cart[i].itemPrice}`;
       }
-      str = str + `, and ${cart[-1].itemName} at $${cart[-1].itemPrice}.`;
+      str = str + `, and ${cart[cart.length-1].itemName} at $${cart[cart.length-1].itemPrice}.`;
     }
     else{str = str.concat(".")};
   }
