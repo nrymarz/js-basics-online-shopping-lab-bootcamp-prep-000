@@ -20,7 +20,7 @@ function viewCart() {
     return "Your shopping cart is empty.";
   }
   else{
-    var str = `In Your cart, you have ${cart[0]['itemName']} at ${cart[0].itemPrice}`;
+    var str = `In Your cart, you have ${cart[0].itemName} at ${cart[0].itemPrice}`;
     for(let i = 1;i<cart.length-1;i++){
       str = str + `, ${cart[i][itemName]} at ${cart[i].itemPrice}`;
     }
