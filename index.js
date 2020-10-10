@@ -28,6 +28,7 @@ function viewCart() {
       str = str + `, and ${cart[-1].itemName} at ${cart[-1].itemPrice}.`;
     }
   }
+  return str;
 }
 
 function total() {
