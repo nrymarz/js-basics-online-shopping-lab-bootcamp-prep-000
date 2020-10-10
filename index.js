@@ -10,7 +10,7 @@ function setCart(c) {
 }
 
 function addToCart(item) {
- // write your code here
+  var obj = {[item]:math.random()}
 }
 
 function viewCart() {
@@ -27,4 +27,7 @@ function removeFromCart(item) {
 
 function placeOrder(cardNumber) {
   // write your code here
+}
+function price(){
+  return Math.floor(Math.random()*99+1);
 }
