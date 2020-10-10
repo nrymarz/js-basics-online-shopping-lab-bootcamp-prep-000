@@ -10,7 +10,9 @@ function setCart(c) {
 }
 
 function addToCart(item) {
-  var obj = {[item]:math.random()}
+  var groceryItem{itemName:item, itemPrice: price()}
+  cart.push(groceryItem);
+  return `${item} has been added to your cart.`
 }
 
 function viewCart() {
