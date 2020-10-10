@@ -10,7 +10,7 @@ function setCart(c) {
 }
 
 function addToCart(item) {
-  var groceryItem{itemName:item, itemPrice: price()};
+  var groceryItem = {itemName:item, itemPrice: price()};
   cart.push(groceryItem);
   return `${item} has been added to your cart.`;
 }
